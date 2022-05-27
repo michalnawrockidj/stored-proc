@@ -1,0 +1,7 @@
+
+DELIMITER //
+CREATE PROCEDURE MARK_NAMES(IN date DATETIME)
+BEGIN
+UPDATE user SET name = 'xxx' , time = date;
+END //
+DELIMITER ;
